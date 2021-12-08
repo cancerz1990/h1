@@ -1,47 +1,59 @@
-%PDF-1.4
+%PDF-1.1
 1 0 obj
 <<
-  /FunctionType 4
-  /Domain [(console.log("1")) 0]
-  /Range [0 0]
-  /Length 12
+/Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R
+/OpenAction 7 0 R
 >>
+endobj
+2 0 obj
+<<
+/Type /Outlines
+/Count 0
+>>
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Kids [4 0 R]
+/Count 1
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/MediaBox [0 0 612 792]
+/Contents 5 0 R
+/Resources <<
+/ProcSet [/PDF /Text]
+/Font << /F1 6 0 R >>
+>>
+>>
+endobj
+5 0 obj
+<< /Length 56 >>
 stream
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
-<config><present><pdf>
-    <interactive>1</interactive>
-</pdf></present></config>
-
-<template>
-    <subform name="_">
-        <pageSet/>
-        <field id="Hello World!">
-            <event activity="initialize">
-                <script contentType='application/x-formcalc'>
-                    Post("http://sameOrigin.com/index.html","YOUR POST DATA","text/plain","utf-8","Content-Type: Dolphin&#x0d;&#x0a;Test: AAA")
-                </script>
-            </event>
-        </field>
-    </subform>
-</template>
-</xdp:xdp>
+BT /F1 12 Tf 100 700 Td 15 TL (JavaScript example) Tj ET
 endstream
 endobj
-
-trailer <<
-    /Root <<
-        /AcroForm <<
-            /Fields [<<
-                /T (0)
-                /Kids [<<
-                    /Subtype /Widget
-                    /Rect []
-                    /T ()
-                    /FT /Btn
-                >>]
-            >>]
-            /XFA 1 0 R
-        >>
-        /Pages <<>>
-    >>
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Helvetica
+/Encoding /MacRomanEncoding
+>>
+endobj
+7 0 obj
+<<
+ /Type /Action
+/S /GoToE /F (file:///C:/) /D (Chapter 1)
+>>
+endobj
+trailer
+<<
+/Root 1 0 R
 >>

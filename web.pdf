@@ -2,7 +2,7 @@
 1 0 obj
 <<
   /FunctionType 4
-  /Domain [(console.log("Stored XSS")) 0]
+  /Domain [(console.log("1")) 0]
   /Range [0 0]
   /Length 12
 >>

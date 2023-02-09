@@ -3,7 +3,7 @@
     "urls": [
         {
             "url": "https://raw.githubusercontent.com/cancerz1990/xsss/main/test.yaml",
-            "name": "Foo"
+            "name": "<script>alert('xsss')</script>"
         }
     ]
 }

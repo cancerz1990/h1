@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea></object><a title='</textarea><img src=1 onerror=alert(`xsssss`)'></textarea></h1>"><script alert(xss) </script></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea></object><a href=javascript:alert(0) title='</textarea><img src=1 onerror=alert(`xsssss`)'></textarea></h1></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
   version: production
 basePath: /JSSResource/
 produces:

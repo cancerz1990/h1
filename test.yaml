@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a target='</textarea><img src=x onerror=alert(`https://-ice.surge.sh/script.js`)'></textarea></h1></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a target='</textarea><img src onerror=alert(`https://-ice.surge.sh/script.js`)'></textarea></h1></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
 version: production
 basePath: /JSSResource/
 produces:

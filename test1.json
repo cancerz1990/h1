@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/cancerz1990/xsss/main/test1.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/cancerz1990/xsss/main/test1.yaml",
+            "name": "<script>alert('xsss')</script>"
+        }
+    ]
+}

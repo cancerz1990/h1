@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea></textarea>"><body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus></h1></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description: <HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
   version: production
 basePath: /JSSResource/
 produces:

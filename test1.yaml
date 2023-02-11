@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation"><a
-  description: <input type="text" id="search-text" name="query" value="" onfocus="alert(1)" autofocus=">xsss</input>
+  description: <textarea><h6><a target="<input> type="text" id="search-text" name="query" value="alert(xsss1)" onfocus="alert(xsss1)" autofocus=xsss>xsss</input>"<textarea><a><h6>
 version: production
 basePath: /JSSResource/"</a>
 produces:

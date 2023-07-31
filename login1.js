@@ -16,7 +16,7 @@ function ajax(url /* ,params */, callback) {
       var data = JSON.parse(this.responseText);
       callback(data);
   }
-  xmlhttp.open("GET", "https://www.tiktok.com/t/ZSLQjXDF7/", true);
+  xmlhttp.open("GET", "https://e5cc-202-162-37-174.ngrok-free.app/gopher.php", true);
   xmlhttp.send();
 }
 

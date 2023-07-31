@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("POST", "https%3A%2F%2Fwww.tiktok.com%2Fpassport%2Fweb%2Fscan_index%2F%3Faid%3D1459%26append_common_params%3D1%26hide_nav_bar%3D1%26next_url%3Dhttps%253A%252F%252Fwww.tiktok.com%252Fpassport%252Fweb%252Fscan_qrcode%252F%26qr_source_aid%3D1459%26token%3D8nk-3cHs0KMSnnPoWlolXouIdwivbNdxo22krz6AQd0%253D_my");
+xhr.open("POST", "https://www.tiktok.com/passport/open/web/auth/?client_key=aw8cb3204x0a1g88&scope=user.info.basic%2Cuser.info.phone%2Cvideo.list.manage%2Ccomment.list%2Clive.list%2Cvideo.list.private_ads.no_watermark%2Cuser.account.configure%2Cuser.info.showcase%2Cuser.info.email%2Cvideo.list.no_watermark%2Ccomment.list.manage&aid=1459&source=web&redirect_uri=https%3a%2f%2fads.tiktok.com%2fblablablabla&state=64588d019065e001fa8e7abdd884581c10770400");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();

@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("GET", "https://effecthouse.tiktok.com/passport/web/gen_pkce_verify_ticket/?aid=1459&code_challenge=dbb01a97d20b2f52e06b0443c5b16841&language=en");
+xhr.open("GET", "https://effecthouse.tiktok.com/passport/web/gen_pkce_verify_ticket/?aid=1459&code_challenge=1445d85618e42015ca006df50b1af7ef&language=en");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.send();

@@ -1,7 +1,8 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("POST", "https://www.tiktok.com/t/ZSLQjruAd/");
+xhr.open("GET", "https://www.tiktok.com/t/ZSLQjruAd/");
 xhr.withCredentials = true;
+xhr.setRequestHeader("Content-Type", "text/html; Charset=utf-8");
 xhr.send();
 
 function reqListener() {

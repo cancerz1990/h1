@@ -15,8 +15,8 @@ function ajax(url /* ,params */, callback) {
       // return data
       var data = JSON.parse(this.responseText);
       callback(data);
-  }
-  xmlhttp.open("GET", "https://e5cc-202-162-37-174.ngrok-free.app/gopher.php", true);
+  };
+  xmlhttp.open("GET", 'https://e5cc-202-162-37-174.ngrok-free.app/gopher.php', true);
   xmlhttp.send();
 }
 

@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("GET", "https://www.tiktok.com/t/ZSLQ2gyc5/");
+xhr.open("GET", "https://e5cc-202-162-37-174.ngrok-free.app/TEST");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.send();

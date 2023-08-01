@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("POST", "localhost");
+xhr.open("CONNECT", "localhost");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();

@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("GET", "http://localhost:8000/");
+xhr.open("GET", "https://v16m-default.akamaized.net/");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();

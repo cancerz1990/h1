@@ -1,9 +1,9 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("GET", "http://127.0.0.1");
+xhr.open("POST", "http://127.0.0.1");
 xhr.withCredentials = true;
-xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();
 
 function reqListener() {

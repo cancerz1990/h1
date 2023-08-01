@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("POST", "http://localhost/admin");
+xhr.open("GET", "https://192.168.0.68/admin");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();

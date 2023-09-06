@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("GET", "https://business-sso.tiktok.com/check_login/?aid=1583&service=ads.tiktok.com&language=en&appId=1583&lang=en");
+xhr.open("GET", "http://business-sso.tiktok.com/check_login/?aid=1583&service=ads.tiktok.com&language=en&appId=1583&lang=en");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();

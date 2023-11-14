@@ -1,8 +1,8 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = reqListener; 
-xhr.open("GET", "https://open-api.tiktokv.com/check_login/?aid=1583&service=ads.tiktok.com&language=en&appId=1583&lang=en");
+xhr.open("GET", "https://effecthouse.tiktok.com/passport/web/gen_pkce_verify_ticket/?aid=1459&code_challenge=472c93bxxxxxxxxxxxxxxxxf&language=en");
 xhr.withCredentials = true;
-xhr.setRequestHeader("Content-Type", "application/json");
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.send();
 
 function reqListener() {

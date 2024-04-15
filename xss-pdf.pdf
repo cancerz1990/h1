@@ -83,6 +83,13 @@ endobj
 /JS (app.alert\('/https://edad-202-162-37-174.ngrok-free.app/test2.js/'\))
 /S /JavaScript
 >>]
+endobj
+6 0 obj
+<<
+/Type /Action
+/S /URI
+/URI ('https://edad-202-162-37-174.ngrok-free.app/test2.js')
+>>
 >>
 endobj
 7 0 obj

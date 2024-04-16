@@ -86,9 +86,6 @@ endobj
 endobj
 6 0 obj
 <<
-/Type /Action
-/S /JavaScript
-/JS (app.alert('https://edad-202-162-37-174.ngrok-free.app/test277.js'))
 >>
 >>
 endobj

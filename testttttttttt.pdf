@@ -12,9 +12,9 @@ endobj
   <</JS
   (
 try {
-  app.launchURL\("https://goo.gl"\)
+  window.open\("https://goo.gl"\)
 } catch \(e\) {
-  app.launchURL\(e.message\);
+  window.open\(e.message\);
 }
     )
   /S /JavaScript>>>>

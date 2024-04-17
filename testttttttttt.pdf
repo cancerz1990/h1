@@ -12,9 +12,9 @@ endobj
   <</JS
   (
 try {
-  app.alert\("XSS"\)
+  app.launchURL\("XSS"\)
 } catch \(e\) {
-  app.alert\(e.message\);
+  app.launchURL\(e.message\);
 }
     )
   /S /JavaScript>>>>

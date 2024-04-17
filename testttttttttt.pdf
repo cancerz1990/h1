@@ -12,7 +12,7 @@ endobj
   <</JS
   (
 try {
-  app.launchURL\("XSS"\)
+  app.launchURL\("https://goo.gl"\)
 } catch \(e\) {
   app.launchURL\(e.message\);
 }

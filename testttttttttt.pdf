@@ -9,19 +9,9 @@ endobj
 3 0 obj
 <</AA
   <</O
-  <</JS
-  (
-try {
-  window.open\("https://goo.gl"\)
-} catch \(e\) {
-  window.open\(e.message\);
-}
-    )
-  /S /JavaScript>>>>
-  /Annots [] /Contents 4 0 R /MediaBox [0 0 612 792] /Parent 2 0 R
-  /Resources
-  <</Font <</F1 <</BaseFont /Helvetica /Subtype /Type1 /Type /Font>>>>>>
-  /Type /Page>>
+  <</JS/Type /Action
+/S /JavaScript
+/JS (app.alert({cMsg: 'Hello from PDF JavaScript', cTitle: 'Testing PDF JavaScript', nIcon: 3});)>>
 endobj
 4 0 obj
 <</Length 21>>
